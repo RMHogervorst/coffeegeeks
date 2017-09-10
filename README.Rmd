@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 It is written in the stars, that when a twitter hashtag is created, a community
-is born. As is true for the #rstatscoffeegeeks community. 
+is born. As is true for the [#rstatscoffeegeeks community](https://twitter.com/search?q=%23rstatscoffeegeeks). 
 
 This package contains basic needs for every rstatscoffeegeek. 
 

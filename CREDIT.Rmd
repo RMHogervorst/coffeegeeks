@@ -1,0 +1,28 @@
+---
+title: "CREDITS"
+author: "Roel M. Hogervorst"
+date: "10 september 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Articles and images
+
+OF course we need to give credit where credit is due.
+I've used pictures from different sites.
+
+One of the coffee images is called [Coffee Cup and Stained by BenBois](http://vector.me/browse/401837/coffee_cup_and_stained), I've downloaded the picture from vector.me
+
+Used a poem from [poetry soup](https://www.poetrysoup.com/poem/coffee_in_the_morning_time_932583)
+By Maren Beauchamp
+
+
+# Things we learned from
+
+Help in explaining how to create rmarkdown templates with styling is from:
+<https://github.com/ellisp/rmarkdown-corporate-eg> with explanation on <https://ellisp.github.io/blog/2017/09/09/rmarkdown>
+
+But also of course on the [rmarkdown website](rmarkdown.rstudio.com)

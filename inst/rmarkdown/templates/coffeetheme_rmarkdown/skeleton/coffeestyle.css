@@ -1,0 +1,49 @@
+
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+
+h1 {
+  color: #fff5eb;
+  font-size: 127%;
+}
+
+.title {
+  margin-right: 200px;
+}
+
+h2 {
+  color: #fee6ce;
+  font-size: 121%;
+}
+
+h3 {
+  color: #fdd0a2;
+  font-size: 109%;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: italic;
+}
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #7f2704;
+}
+
+/* stole this below from tufte style: https://github.com/rstudio/tufte/blob/master/inst/rmarkdown/templates/tufte_html/resources/tufte.css */
+code { font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+        font-size: 1.125rem;
+        line-height: 1.6; }
+
+pre code { font-size: 1rem; }
+
+p code { white-space: inherit; }
+
+h1 code, h2 code, h3 code { font-size: 0.80em; }
