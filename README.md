@@ -2,7 +2,7 @@ README
 ================
 
 <!-- badges -->
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/coffeegeeks)](https://cran.r-project.org/package=coffeegeeks)[![Last-changedate](https://img.shields.io/badge/last%20change-2017--09--10-yellowgreen.svg)](/commits/master) [![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](http://www.repostatus.org/badges/latest/concept.svg)](http://www.repostatus.org/#concept) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](http://choosealicense.com/licenses/mit/)
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/coffeegeeks)](https://cran.r-project.org/package=coffeegeeks)[![Last-changedate](https://img.shields.io/badge/last%20change-2017--09--12-yellowgreen.svg)](/commits/master) [![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](http://www.repostatus.org/badges/latest/concept.svg)](http://www.repostatus.org/#concept) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](http://choosealicense.com/licenses/mit/)
 
 It is written in the stars, that when a twitter hashtag is created, a community is born. As is true for the [\#rstatscoffeegeeks community](https://twitter.com/search?q=%23rstatscoffeegeeks).
 
@@ -17,3 +17,17 @@ This package contains basic needs for every rstatscoffeegeek.
 Install this package with `devtools::install_github("rmhogervorst/coffeegeeks")`
 
 Create your rmarkdown file by going to the Rstudio new file/rmarkdown dialog, and select 'from template', pick 'coffee theme'.
+
+### How to use the template
+
+To use the coffee rmarkdown template, install the package and go 'create new rmarkdown document'
+
+![open new rmarkdown document](images/screenshot1.png)
+
+Then in the dialog select Coffee theme
+
+![selecting coffee theme](images/screenshot2.png)
+
+After knitting, the endresult looks something like this:
+
+![endresult of knitting in theme](images/screenshot3.png)

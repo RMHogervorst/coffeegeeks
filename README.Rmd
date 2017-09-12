@@ -30,3 +30,19 @@ Install this package with
 Create your rmarkdown file by going to the Rstudio new file/rmarkdown dialog, 
 and select 'from template', pick 'coffee theme'.
 
+
+### How to use the template
+
+To use the coffee rmarkdown template, install the package
+and go 'create new rmarkdown document'
+
+![open new rmarkdown document](images/screenshot1.png)
+
+Then in the dialog select Coffee theme
+
+![selecting coffee theme](images/screenshot2.png)
+
+After knitting, the endresult looks something like this:
+
+![endresult of knitting in theme](images/screenshot3.png)
+
