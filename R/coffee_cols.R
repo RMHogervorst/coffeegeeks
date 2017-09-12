@@ -30,7 +30,7 @@
 #' ggplot2::ggplot(mtcars, aes(drat, mpg)) +
 #'   geom_point(aes(col = as.factor(cyl))) +
 #'   scale_color_manual(values = coffee_cols(beans, latte, espresso))
-#' @exprort
+#' @export
 coffee_cols <- function(...) {
     col_ints <- input_to_ints(...)
     get_cols_data_frame()$hex_code[col_ints]

@@ -23,3 +23,10 @@ This package contains basic needs for every rstatscoffeegeek.
 - coffee related emojis
 - coffee names 
 
+
+Install this package with 
+`devtools::install_github("rmhogervorst/coffeegeeks")`
+
+Create your rmarkdown file by going to the Rstudio new file/rmarkdown dialog, 
+and select 'from template', pick 'coffee theme'.
+

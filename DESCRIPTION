@@ -1,7 +1,10 @@
 Package: coffeegeeks
 Title: Coffee Related ggplot2 and rmarkdown Themes
 Version: 0.0.0.9000
-Authors@R: "Roel M. Hogervorst <hogervorst.rm@gmail.com> [cre, aut]"
+Authors@R: c(
+    person("Roel M.", "Hogervorst", email ="hogervorst.rm@gmail.com", role = c("cre", "aut")),
+    person("Edwin", "Thoen", role = "aut")
+    )
 Description: Create coffee related plots in ggplot, choose coffee 
    related emojis, find out why coffee doesn't taste that good and
    general geekery around coffee. 
