@@ -12,7 +12,7 @@
 #' 2 - coffee_grounds
 #' 3 - espresso_cream
 #' 4 - latte
-#' 5 - flower_sheet_ligth
+#' 5 - flower_sheet_light
 #' 
 #' Cappucino theme
 #' 6 - hot_milk
@@ -60,7 +60,7 @@ get_cols_data_frame <- function() {
                        "coffee_grounds",
                        "espresso_cream",
                        "latte",
-                       "flower_sheet_ligth",
+                       "flower_sheet_light",
                        "hot_milk", 
                        "cream",
                        "cream_and_coffee",
