@@ -46,3 +46,16 @@ After knitting, the endresult looks something like this:
 
 ![endresult of knitting in theme](images/screenshot3.png)
 
+## Using the ggplot2 theme
+
+```{r coffeetheme}
+library(ggplot2)
+ggplot(mtcars)+
+    geom_point(aes(hp, wt, color = mpg))+
+    scale_gradient_coffee()
+
+ggplot(mtcars)+
+    geom_density(aes(mpg, fill = as.factor(cyl)))+
+    scale_fill_coffee()
+```
+
