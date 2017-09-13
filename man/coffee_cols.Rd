@@ -19,7 +19,7 @@ Coffee House Ponders theme
 2 - coffee_grounds
 3 - espresso_cream
 4 - latte
-5 - flower_sheet_ligth
+5 - flower_sheet_light
 
 Cappucino theme
 6 - hot_milk

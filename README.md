@@ -2,7 +2,7 @@ README
 ================
 
 <!-- badges -->
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/coffeegeeks)](https://cran.r-project.org/package=coffeegeeks)[![Last-changedate](https://img.shields.io/badge/last%20change-2017--09--12-yellowgreen.svg)](/commits/master) [![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](http://www.repostatus.org/badges/latest/concept.svg)](http://www.repostatus.org/#concept) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](http://choosealicense.com/licenses/mit/)
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/coffeegeeks)](https://cran.r-project.org/package=coffeegeeks)[![Last-changedate](https://img.shields.io/badge/last%20change-2017--09--13-yellowgreen.svg)](/commits/master) [![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](http://www.repostatus.org/badges/latest/concept.svg)](http://www.repostatus.org/#concept) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](http://choosealicense.com/licenses/mit/)
 
 It is written in the stars, that when a twitter hashtag is created, a community is born. As is true for the [\#rstatscoffeegeeks community](https://twitter.com/search?q=%23rstatscoffeegeeks).
 
@@ -30,4 +30,25 @@ Then in the dialog select Coffee theme
 
 After knitting, the endresult looks something like this:
 
-![endresult of knitting in theme](images/screenshot3.png)
+![endresult of knitting in theme](images/screenshot4.png)
+
+Using the ggplot2 theme
+-----------------------
+
+``` r
+library(coffeegeeks)
+library(ggplot2)
+ggplot(mtcars)+
+    geom_point(aes(hp, wt, color = mpg))+
+    scale_gradient_coffee()
+```
+
+![](README_files/figure-markdown_github-ascii_identifiers/coffeetheme-1.png)
+
+``` r
+ggplot(mtcars)+
+    geom_density(aes(mpg, fill = as.factor(cyl)))+
+    scale_fill_coffee()
+```
+
+![](README_files/figure-markdown_github-ascii_identifiers/coffeetheme-2.png)

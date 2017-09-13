@@ -44,11 +44,12 @@ Then in the dialog select Coffee theme
 
 After knitting, the endresult looks something like this:
 
-![endresult of knitting in theme](images/screenshot3.png)
+![endresult of knitting in theme](images/screenshot4.png)
 
 ## Using the ggplot2 theme
 
 ```{r coffeetheme}
+library(coffeegeeks)
 library(ggplot2)
 ggplot(mtcars)+
     geom_point(aes(hp, wt, color = mpg))+
