@@ -44,7 +44,7 @@ Then in the dialog select Coffee theme
 
 After knitting, the endresult looks something like this:
 
-![endresult of knitting in theme](images/screenshot4.png)
+![endresult of knitting in theme](images/screenshot4.PNG)
 
 ## Using the ggplot2 theme
 
