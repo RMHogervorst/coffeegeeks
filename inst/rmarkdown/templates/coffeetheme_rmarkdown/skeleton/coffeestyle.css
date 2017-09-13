@@ -6,7 +6,7 @@ body {
 
 
 h1 {
-  color: #fff5eb;
+  color: #2C1901;
   font-size: 127%;
 }
 
@@ -15,17 +15,18 @@ h1 {
 }
 
 h2 {
-  color: #fee6ce;
+  color: #894200;
   font-size: 121%;
 }
 
 h3 {
-  color: #fdd0a2;
+  color: #4D351D;
   font-size: 109%;
   font-weight: bold;
 }
 
 h4 {
+  color: #B68D3D;    
   font-size: 100%;
   font-weight: bold;
   font-style: italic;
