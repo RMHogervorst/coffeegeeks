@@ -10,7 +10,7 @@
 #' @source \url{"http://drinks.seriouseats.com/2013/07/home-coffee-brewing-troubleshooting-grind-size-brew-time.html"}
 #' @source \url{"http://www.jimseven.com/2006/07/31/5-reasons-your-coffee-tastes-bad/"}
 #' @source \url{"https://www.roastycoffee.com/reasons-your-coffee-tastes-bad/"}
-#' 
+#' @export
 #' @examples 
 #' help_my_coffee_(is = "cold")
 #' help_my_coffee_(tastes = "sour")
