@@ -4,6 +4,8 @@
 #' Helps you diagnose trouble in coffee paradise.
 #' See examples for instructions.
 #' 
+#' You can add multiple things wrong with your coffee
+#' 
 #' 
 #' @source \url{"http://drinks.seriouseats.com/2013/07/home-coffee-brewing-troubleshooting-grind-size-brew-time.html"}
 #' @source \url{"http://www.jimseven.com/2006/07/31/5-reasons-your-coffee-tastes-bad/"}
@@ -14,6 +16,7 @@
 #' help_my_coffee_(tastes = "sour")
 #' help_my_coffee_(tastes = "bitter")
 #' help_my_coffee_(is = "gone")
+#' help_my_coffee_(tastes = c("sour", "strong"))
 help_my_coffee_<- function(tastes = NULL, is = NULL){
     if(all(is.null(tastes), is.null(is))){
         stop("Your coffee cannot be saved without more information")
