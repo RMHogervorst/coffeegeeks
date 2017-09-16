@@ -2,7 +2,7 @@ README
 ================
 
 <!-- badges -->
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/coffeegeeks)](https://cran.r-project.org/package=coffeegeeks)[![Last-changedate](https://img.shields.io/badge/last%20change-2017--09--16-yellowgreen.svg)](/commits/master) [![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](http://www.repostatus.org/badges/latest/concept.svg)](http://www.repostatus.org/#concept) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](http://choosealicense.com/licenses/mit/)
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/coffeegeeks)](https://cran.r-project.org/package=coffeegeeks)[![Last-changedate](https://img.shields.io/badge/last%20change-2017--09--16-yellowgreen.svg)](/commits/master) [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](http://choosealicense.com/licenses/mit/)
 
 It is written in the stars, that when a twitter hashtag is created, a community is born. As is true for the [\#rstatscoffeegeeks community](https://twitter.com/search?q=%23rstatscoffeegeeks).
 
