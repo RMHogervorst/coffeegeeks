@@ -187,7 +187,7 @@ get_flavour_descriptions <- function(){
 #' extract_flavour("the nippy brew had a oily after taste with turpsy tones")
 extract_flavour <- function(charvec, description = FALSE){
     sentance_in <- unlist(strsplit(tolower(charvec), " "))
-    flavours <- taste_words()
+    flavours <- get_flavour_descriptions()
     matchword <- gsub("_", " ", tolower(flavours$word))
     matched_words <- sentance_in[sentance_in %in% matchword]
     if(description){ # dplyr would make this extremely more readable
@@ -196,3 +196,5 @@ extract_flavour <- function(charvec, description = FALSE){
         return(matched_words)
     }
 }
+
+
