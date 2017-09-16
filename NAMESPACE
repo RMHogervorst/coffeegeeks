@@ -2,6 +2,8 @@
 
 export(coffee_cols)
 export(coffee_pal)
+export(extract_flavour)
+export(get_flavour_descriptions)
 export(scale_color_coffee)
 export(scale_colour_coffee)
 export(scale_fill_coffee)
