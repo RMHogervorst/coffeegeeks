@@ -39,7 +39,8 @@ get_flavour_descriptions <- function(){
         
         Flat ="A loss of aroma.",
         
-        Fragrant_or_floral ="Subtle hints of fragrant flowers such as jasmine.",
+        Fragrant ="Subtle hints of fragrant flowers such as jasmine.",
+        Floral ="Subtle hints of fragrant flowers such as jasmine.",
         
         Fruity ="A sweet fruity aroma suggestive of berries or citrus fruit.",
         
@@ -175,4 +176,23 @@ get_flavour_descriptions <- function(){
 
 #' Extract flavours from sentance
 #' 
-#' This function extracts the flavours from 
+#' This function extracts the flavours from a sentance and
+#' returns them with or without descriptions.
+#' The default returns just the words that are tastes, and
+#' if you set description to TRUE a data frame with word and explanation is returned.
+#' @param charvec a sentance like: "The coffee has a smooth soft creamy taste"
+#' @param description FALSE or TRUE if you want the description of those words
+#' @export
+#' @examples 
+#' extract_flavour("the nippy brew had a oily after taste with turpsy tones")
+extract_flavour <- function(charvec, description = FALSE){
+    sentance_in <- unlist(strsplit(tolower(charvec), " "))
+    flavours <- taste_words()
+    matchword <- gsub("_", " ", tolower(flavours$word))
+    matched_words <- sentance_in[sentance_in %in% matchword]
+    if(description){ # dplyr would make this extremely more readable
+        return(flavours[which(tolower(flavours$word) %in% matched_words),])
+    }else{
+        return(matched_words)
+    }
+}
